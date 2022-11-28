@@ -54,7 +54,7 @@ const Login = () => {
               <input
                 type="text"
                 className="form-control"
-                placeholder="Example input"
+                placeholder="gda12"
                 name="username"
                 onChange={onChange}
               />
@@ -64,7 +64,7 @@ const Login = () => {
               <input
                 type="password"
                 className="form-control"
-                placeholder="Password"
+                placeholder="123456"
                 name="password"
                 onChange={onChange}
               />
