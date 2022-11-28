@@ -33,9 +33,20 @@ const UserList = () => {
         </tbody>
       </table>
 
-      <button className="btn btn-primary" onClick={onClick}>
-        Login
-      </button>
+      <div style={{ display: "flex", gap: "3rem" }}>
+        <button className="btn btn-primary" onClick={onClick}>
+          Cerrar sesion
+        </button>
+
+        <button
+          className="btn btn-secondary"
+          onClick={() => {
+            history.goBack();
+          }}
+        >
+          Ver mi perfil
+        </button>
+      </div>
     </div>
   );
 };

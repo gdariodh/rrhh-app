@@ -43,9 +43,9 @@ const Login = () => {
   };
 
   return (
-    <div className="container" style={{ width: "20rem", margin: "0 auto" }}>
-      <div className="card" style={{ width: "20rem", margin: "0 auto" }}>
-        <div className="card-body">
+    <div className="container-center">
+      <div className="card login">
+        <div className="card-body card-login">
           <h5 className="card-title">Ingresa tu cuenta</h5>
 
           <form onSubmit={onSubmit}>
