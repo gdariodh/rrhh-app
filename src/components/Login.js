@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { users } from "../data/users";
-
 const Login = () => {
+  const history = useHistory();
+
   const [userData, setUserData] = useState({});
   const [error, setError] = useState(false);
   const [alert, setAlert] = useState("");
@@ -30,12 +32,12 @@ const Login = () => {
 
     const userFound = users.find((user) => user.username === username);
 
-    console.log({ userFound });
-
     if (!userFound) {
       setError(true);
       return setAlert("Usuario no encontrado");
     }
+
+    history.replace(`/user/${userFound.username}`);
 
     setError(false);
   };
