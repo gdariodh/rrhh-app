@@ -44,6 +44,10 @@ const Login = () => {
 
   return (
     <div className="container-center">
+      <p>FAST-INFO APP</p>
+
+      <p>Ahorra tiempo y papeleo</p>
+
       <div className="card login">
         <div className="card-body card-login">
           <h5 className="card-title">Ingresa tu cuenta</h5>
@@ -82,6 +86,8 @@ const Login = () => {
           {alert}
         </div>
       )}
+
+      <p className="mt-4">By: Gabriel Diaz & Jose Cisneros</p>
     </div>
   );
 };
