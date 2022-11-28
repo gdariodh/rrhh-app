@@ -34,8 +34,8 @@ const User = () => {
               </li>
             </ul>
             <div className="card-body">
-              <button className="card-link">Solicitar Vacaciones</button>
-              <button className="card-link">Agendar llamada</button>
+              <button className="btn btn-link">Solicitar Vacaciones</button>
+              <button className="btn btn-light">Agendar llamada</button>
             </div>
           </div>
 
