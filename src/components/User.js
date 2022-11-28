@@ -13,11 +13,12 @@ const User = () => {
     <div className="container container-center">
       {userFound ? (
         <div>
-          <div className="card">
+          <div className="card mt-4">
             <img
               className="card-img-top"
               src={userFound.img}
               alt={`imagen de ${userFound.name}`}
+              style={{ maxHeight: "400px" }}
             />
             <div className="card-body">
               <h5 className="card-title">
