@@ -54,7 +54,7 @@ const Login = () => {
               <input
                 type="text"
                 className="form-control"
-                placeholder="gda12"
+                placeholder="username"
                 name="username"
                 onChange={onChange}
               />
