@@ -13,6 +13,7 @@ const User = () => {
     <div className="container container-center">
       {userFound ? (
         <div>
+          <p className="title mt-5">Tu Perfil:</p>
           <div className="card mt-4">
             <img
               className="card-img-top"

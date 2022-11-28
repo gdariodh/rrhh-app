@@ -44,7 +44,7 @@ const Login = () => {
 
   return (
     <div className="container-center">
-      <p>FAST-INFO APP</p>
+      <p className="title">FAST-INFO APP</p>
 
       <p>Ahorra tiempo y papeleo</p>
 
@@ -54,7 +54,7 @@ const Login = () => {
 
           <form onSubmit={onSubmit}>
             <div className="form-group">
-              <label htmlFor="formGroupExampleInput">User</label>
+              <label htmlFor="formGroupExampleInput">Username</label>
               <input
                 type="text"
                 className="form-control"
@@ -74,8 +74,12 @@ const Login = () => {
               />
             </div>
 
-            <button type="submit" className="btn btn-primary mt-4">
-              Submit
+            <button
+              type="submit"
+              className="btn btn-primary mt-4"
+              style={{ width: "100%" }}
+            >
+              Ingresar
             </button>
           </form>
         </div>

@@ -9,8 +9,8 @@ const UserList = () => {
   };
 
   return (
-    <div className="container-fluid">
-      <p className="font-weight-bold">Colaboradores:</p>
+    <div className="container mt-2">
+      <p className="font-weight-bold my-4 title">Colaboradores:</p>
 
       <table className="table table-striped">
         <thead>
