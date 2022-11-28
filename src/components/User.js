@@ -17,7 +17,7 @@ const User = () => {
             <img
               className="card-img-top"
               src={userFound.img}
-              alt="Card image cap"
+              alt={`imagen de ${userFound.name}`}
             />
             <div className="card-body">
               <h5 className="card-title">
@@ -34,12 +34,8 @@ const User = () => {
               </li>
             </ul>
             <div className="card-body">
-              <a href="#" className="card-link">
-                Solicitar Vacaciones
-              </a>
-              <a href="#" className="card-link">
-                Agendar llamada
-              </a>
+              <button className="card-link">Solicitar Vacaciones</button>
+              <button className="card-link">Agendar llamada</button>
             </div>
           </div>
 
